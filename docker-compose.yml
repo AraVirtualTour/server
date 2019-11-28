@@ -1,0 +1,20 @@
+version: '2.1'
+
+services:
+  frontend:
+    container_name: frontend_production
+    build:
+      context: ./tour
+      dockerfile: Dockerfile
+    ports:
+      - 81:80
+    volumes:
+      - ./tour:/app
+
+  backend:
+    container_name: backend_production
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - 8081:8080
