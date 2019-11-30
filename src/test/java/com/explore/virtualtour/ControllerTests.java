@@ -1,4 +1,4 @@
-package com.explore.virtualtour;;
+package com.explore.virtualtour;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -16,24 +16,22 @@ import org.springframework.test.web.servlet.MockMvc;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class GreetingControllerTests {
-
+public class ControllerTests {
 	@Autowired
 	private MockMvc mockMvc;
 
 	@Test
 	public void noParamGreetingShouldReturnDefaultMessage() throws Exception {
 
-		this.mockMvc.perform(get("/greeting")).andDo(print()).andExpect(status().isOk())
-				.andExpect(jsonPath("$.content").value("Hello, World!"));
+		this.mockMvc.perform(get("/api/greeting")).andDo(print()).andExpect(status().isOk())
+			.andExpect(jsonPath("$.content").value("Hello, World!"));
 	}
 
 	@Test
 	public void paramGreetingShouldReturnTailoredMessage() throws Exception {
 
-		this.mockMvc.perform(get("/greeting").param("name", "Spring Community"))
-				.andDo(print()).andExpect(status().isOk())
-				.andExpect(jsonPath("$.content").value("Hello, Spring Community!"));
+		this.mockMvc.perform(get("/api/greeting").param("name", "Spring Community"))
+			.andDo(print()).andExpect(status().isOk())
+			.andExpect(jsonPath("$.content").value("Hello, Spring Community!"));
 	}
-
 }
