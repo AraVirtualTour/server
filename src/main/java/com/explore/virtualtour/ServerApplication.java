@@ -15,11 +15,11 @@ public class ServerApplication {
 	@Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
-		  @Override
-		  public void addCorsMappings(CorsRegistry registry) {
-      registry.addMapping("/api/**").allowedMethods("GET");
-      registry.addMapping("/content/**").allowedMethods("GET");
-		  }
+		@Override
+		public void addCorsMappings(CorsRegistry registry) {
+        	registry.addMapping("/api/**").allowedMethods("GET");
+        	registry.addMapping("/content/**").allowedMethods("GET");
+		}
 		};
 	}
 }
