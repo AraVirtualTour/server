@@ -8,5 +8,6 @@
     { "id": "006", "time": 0,  "required": false, "title": "",                          "src": "006_0_0.url" },
     { "id": "007", "time": 0,  "required": false, "title": "",                          "src": "007_0_0.wav" },
     { "id": "008", "time": 0,  "required": true,  "title": "Mean Recording",            "src": "008_1_0.wav" },
-    { "id": "009", "time": 0,  "required": true,  "title": "Based Subtitles",           "src": "009_1_0.wav" }]
+    { "id": "009", "time": 0,  "required": true,  "title": "Based Subtitles",           "src": "009_1_0.wav" },
+    { "id": "010", "time": 0,  "required": false, "title": "",                          "src": "010_0_0.ass" }]
 }
