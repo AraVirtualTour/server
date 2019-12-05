@@ -1,5 +1,5 @@
 {
   "locations": [
-    { "id": "001", "name": "dummylocation" }
+    { "id": "001", "name": "dummylocation", "default": true }
   ]
 }
