@@ -1,3 +1,6 @@
 {
-  "locations": [{ "id": "001", "name": "dummylocation", "default": true }]
+  "locations": [
+    { "id": "001", "name": "dummylocation", "code": "dummylocation" },
+    { "id": "002", "name": "dummylocation2", "code": "dummylocation2" }
+  ]
 }
