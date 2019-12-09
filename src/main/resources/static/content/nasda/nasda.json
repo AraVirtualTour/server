@@ -1,0 +1,30 @@
+{
+  "content": [
+    { "id": "001", "time": 30, "required": true,  "title": "Introduction",            "src": "dummyaudio.wav", "subtitleid": "019" },
+    { "id": "002", "time": 15, "required": true,  "title": "",                        "src": "intro1.jpg" },
+    { "id": "003", "time": 15, "required": true,  "title": "",                        "src": "intro2.jpg" },
+
+    { "id": "004", "time": 30, "required": true,  "title": "Facilities",              "src": "dummyaudio.wav", "subtitleid": "019" },
+    { "id": "005", "time": 15, "required": true,  "title": "",                        "src": "facilities1.jpg" },
+    { "id": "006", "time": 15, "required": true,  "title": "",                        "src": "facilities2.jpg" },
+
+    { "id": "007", "time": 15, "required": true,  "title": "",                        "src": "facilities3.jpg" },
+    { "id": "008", "time": 15, "required": true,  "title": "",                        "src": "dummytext.txt" },
+
+    { "id": "009", "time": 30, "required": true,  "title": "Experiences",             "src": "dummyaudio.wav", "subtitleid": "019" },
+    { "id": "010", "time": 15, "required": true,  "title": "",                        "src": "experiences1.jpg" },
+    { "id": "011", "time": 15, "required": true,  "title": "",                        "src": "experiences2.jpg" },
+
+    { "id": "012", "time": 15, "required": true,  "title": "",                        "src": "experiences3.jpg" },
+    { "id": "013", "time": 15, "required": true,  "title": "",                        "src": "dummytext.txt" },
+
+    { "id": "014", "time": 30, "required": true,  "title": "Final Notes",             "src": "final1.jpg" },
+    { "id": "015", "time": 15, "required": true,  "title": "",                        "src": "dummytext.txt" },
+    { "id": "016", "time": 15, "required": true,  "title": "",                        "src": "final2.jpg" },
+
+    { "id": "017", "time": 0,  "required": false,  "title": "Graduate Testemonial",   "src": "https://www.youtube.com/watch?v=3x45pzmXeNo" },
+    { "id": "018", "time": 0,  "required": false,  "title": "Virtual Tour",           "src": "https://www.youtube.com/watch?v=sKf--LyJhMs" },
+
+    { "id": "019", "src": "dummysubtitles.vtt" }
+  ]
+}

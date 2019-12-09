@@ -1,6 +1,6 @@
 {
   "locations": [
-    { "id": "001", "name": "dummylocation", "code": "dummylocation" },
-    { "id": "002", "name": "dummylocation2", "code": "dummylocation2" }
+    { "id": "001", "name": "nasda" },
+    { "id": "002", "name": "jazz-music-arts" }
   ]
 }
