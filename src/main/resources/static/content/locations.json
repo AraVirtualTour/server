@@ -1,6 +1,15 @@
 {
   "locations": [
-    { "id": "001", "name": "nasda" },
-    { "id": "002", "name": "jazz-music-arts" }
+    { "id": "001", "name": "nasda",           "title": "NASDA" },
+    { "id": "002", "name": "jazz-music-arts", "title": "Jazz (Music Arts)" },
+    { "id": "002", "name": "kahakura",        "title": "Kahakura" }
+  ],
+  "routes": [
+    { "startLocation": "nasda",             "endLocation": "jazz-music-arts", "distance": 5 },
+    { "startLocation": "nasda",             "endLocation": "kahakura",        "distance": 5 },
+    { "startLocation": "jazz-music-arts",   "endLocation": "nasda",           "distance": 5 },
+    { "startLocation": "jazz-music-arts",   "endLocation": "kahakura",        "distance": 5 },
+    { "startLocation": "kahakura",          "endLocation": "nasda",           "distance": 5 },
+    { "startLocation": "kahakura",          "endLocation": "jazz-music-arts", "distance": 5 }
   ]
 }
