@@ -8,8 +8,14 @@ services:
       dockerfile: Dockerfile
     ports:
       - 81:80
-    volumes:
-      - ./tour:/app
+
+  game:
+    container_name: game_production
+    build:
+      context: ./game
+      dockerfile: Dockerfile
+    ports:
+      - 82:80
 
   backend:
     container_name: backend_production
