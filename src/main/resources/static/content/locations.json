@@ -5,40 +5,94 @@
     { "id": "002", "name": "kahakura",        "title": "Kahakura" }
   ],
   "routes": [
-    { "startLocation": "nasda",             "endLocation": "jazz-music-arts",
+    {
+      "startLocation": "nasda", "endLocation": "jazz-music-arts", "totalDistance": 5,
       "steps": [
-        { "001": "start", "distance": 5, "instruction": "instruction start" },
-        { "002": "end", "distance": 0, "instruction": "instruction finished" }
+        { "id": "001", "name": "start", "distance": 5, "instruction": "instruction start" },
+        { "id": "002", "name": "end", "distance": 0, "instruction": "instruction finished/jazz" }
       ]
     },
-    { "startLocation": "nasda",             "endLocation": "kahakura",
+    {
+      "startLocation": "nasda", "endLocation": "jazz-music-arts", "totalDistance": 10,
       "steps": [
-        { "001": "start", "distance": 5, "instruction": "instruction start" },
-        { "002": "end", "distance": 0, "instruction": "instruction finished" }
+        { "id": "001", "name": "start", "distance": 5, "instruction": "instruction start" },
+        { "id": "002", "name": "middle", "distance": 5, "instruction": "instruction middle/kahakura" },
+        { "id": "003", "name": "end", "distance": 0, "instruction": "instruction finished/jazz" }
       ]
     },
-    { "startLocation": "jazz-music-arts",   "endLocation": "nasda",
+    {
+      "startLocation": "nasda", "endLocation": "kahakura", "totalDistance": 5,
       "steps": [
         { "001": "start", "distance": 5, "instruction": "instruction start" },
-        { "002": "end", "distance": 0, "instruction": "instruction finished" }
+        { "002": "end", "distance": 0, "instruction": "instruction finished/kahakura" }
       ]
     },
-    { "startLocation": "jazz-music-arts",   "endLocation": "kahakura",
+    {
+      "startLocation": "nasda", "endLocation": "kahakura", "totalDistance": 10,
       "steps": [
-        { "001": "start", "distance": 5, "instruction": "instruction start" },
-        { "002": "end", "distance": 0, "instruction": "instruction finished" }
+        { "id": "001", "name": "start", "distance": 5, "instruction": "instruction start" },
+        { "id": "002", "name": "middle", "distance": 5, "instruction": "instruction middle/jazz" },
+        { "id": "003", "name": "end", "distance": 0, "instruction": "instruction finished/kahakura" }
       ]
     },
-    { "startLocation": "kahakura",          "endLocation": "nasda",
+    {
+      "startLocation": "jazz-music-arts", "endLocation": "nasda", "totalDistance": 5,
       "steps": [
         { "001": "start", "distance": 5, "instruction": "instruction start" },
-        { "002": "end", "distance": 0, "instruction": "instruction finished" }
+        { "002": "end", "distance": 0, "instruction": "instruction finished/nasda" }
       ]
     },
-    { "startLocation": "kahakura",          "endLocation": "jazz-music-arts",
+    {
+      "startLocation": "jazz-music-arts", "endLocation": "nasda", "totalDistance": 10,
+      "steps": [
+        { "id": "001", "name": "start", "distance": 5, "instruction": "instruction start" },
+        { "id": "002", "name": "middle", "distance": 5, "instruction": "instruction middle/kahakura" },
+        { "id": "003", "name": "end", "distance": 0, "instruction": "instruction finished/nasda" }
+      ]
+    },
+    {
+      "startLocation": "jazz-music-arts", "endLocation": "kahakura", "totalDistance": 5,
       "steps": [
         { "001": "start", "distance": 5, "instruction": "instruction start" },
-        { "002": "end", "distance": 0, "instruction": "instruction finished" }
+        { "002": "end", "distance": 0, "instruction": "instruction finished/kahakura" }
+      ]
+    },
+    {
+      "startLocation": "jazz-music-arts", "endLocation": "kahakura", "totalDistance": 10,
+      "steps": [
+        { "id": "001", "name": "start", "distance": 5, "instruction": "instruction start" },
+        { "id": "002", "name": "middle", "distance": 5, "instruction": "instruction middle/nasda" },
+        { "id": "003", "name": "end", "distance": 0, "instruction": "instruction finished/kahakura" }
+      ]
+    },
+    {
+      "startLocation": "kahakura", "endLocation": "nasda", "totalDistance": 5,
+      "steps": [
+        { "001": "start", "distance": 5, "instruction": "instruction start" },
+        { "002": "end", "distance": 0, "instruction": "instruction finished/nasda" }
+      ]
+    },
+    {
+      "startLocation": "kahakura", "endLocation": "nasda", "totalDistance": 10,
+      "steps": [
+        { "id": "001", "name": "start", "distance": 5, "instruction": "instruction start" },
+        { "id": "002", "name": "middle", "distance": 5, "instruction": "instruction middle/jazz" },
+        { "id": "003", "name": "end", "distance": 0, "instruction": "instruction finished/nasda" }
+      ]
+    },
+    {
+      "startLocation": "kahakura", "endLocation": "jazz-music-arts", "totalDistance": 5,
+      "steps": [
+        { "001": "start", "distance": 5, "instruction": "instruction start" },
+        { "002": "end", "distance": 0, "instruction": "instruction finished/jazz" }
+      ]
+    },
+    {
+      "startLocation": "kahakura", "endLocation": "jazz-music-arts", "totalDistance": 10,
+      "steps": [
+        { "id": "001", "name": "start", "distance": 5, "instruction": "instruction start" },
+        { "id": "002", "name": "middle", "distance": 5, "instruction": "instruction middle/nasda" },
+        { "id": "003", "name": "end", "distance": 0, "instruction": "instruction finished/jazz" }
       ]
     }
   ]
